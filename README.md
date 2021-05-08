@@ -1,4 +1,4 @@
-##Introduction
+# Introduction
 
 **Congratulations** on deciding to participate in 2 day React workshop. In this workshop you will learn everything you need to use to develop a React application. In the end of the workshop you will get a Two Day React Worksho completion certificate. In case you need help or if you would like to help others you may join our [Discord Server](https://discord.gg/yr2Dt7vb)
 
