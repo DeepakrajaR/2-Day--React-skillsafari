@@ -150,8 +150,7 @@ The babel library is linked to our document and now we can make use of it. The n
 
 Now the index.html has everything we need to write React code. Let us get the root element using document.querySelect('.root') and assign it to a variable name rootElement. The is the only place we directly interact with DOM.
 
-Now, you knew JSX and JSX element. Let us render the JSX element on the browser, in order to do so we need the React and ReactDOM library. In addition to the React and ReactDOM we need babel to transpile the JSX to JavaScript code. The ReactDOM package has a method render. The render method takes two arguments:a JSX element or a component and the root document. See the code below. [Live on code pen](https://codepen.io/Asabeneh/full/JjdbjqK).
-
+Now, you knew JSX and JSX element. Let us render the JSX element on the browser, in order to do so we need the React and ReactDOM library. In addition to the React and ReactDOM we need babel to transpile the JSX to JavaScript code. The ReactDOM package has a method render. The render method takes two arguments:a JSX element or a component and the root document.
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -188,7 +187,6 @@ Now, you knew JSX and JSX element. Let us render the JSX element on the browser,
 </html>
 ```
 
-![Rendering JSX](../images/rendering_jsx.png)
 
 Let us render more content. To render more content, the JSX element should have more HTML elements. For instance, we can create a header of a website and header may have a title, subtitle, author or date etc. Remember, we can render only one JSX element at a time.
 ```html
@@ -235,7 +233,7 @@ Let us render more content. To render more content, the JSX element should have 
 </html>
 ```
 
-![Rendering more content](../images/rendering_more_jsx_content_.png)
+
 
 We have created a JSX element for the header of the website. How about the main and the footer for the website? Similar to the header, let us create a JSX element for the main and the footer.
 
@@ -308,7 +306,7 @@ const app = (
   </div>
 )
 ```
-Now, let us put everything together and render it to the browser. [Live on code pen](https://codepen.io/Asabeneh/full/MWwbYWg).
+Now, let us put everything together and render it to the browser.
 
 ```html
 <!DOCTYPE html>
